@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Documents and Settings\Mark\Desktop\ChessKata\ChessKata\bin\Debug\ChessKata.dll" total="18" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-01-23" time="18:48:43">
+  <environment nunit-version="2.5.8.10295" clr-version="2.0.50727.3615" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="C:\Documents and Settings\Mark\Desktop\ChessKata\ChessKata\bin\Debug" machine-name="KIRSCHSTEIN" user="Mark" user-domain="KIRSCHSTEIN" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Documents and Settings\Mark\Desktop\ChessKata\ChessKata\bin\Debug\ChessKata.dll" executed="True" result="Success" success="True" time="2.203" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="ChessKata" executed="True" result="Success" success="True" time="2.141" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="BoundariesOfTheBoard_Feature" description="Boundaries of the board." executed="True" result="Success" success="True" time="1.609" asserts="0">
+            <results>
+              <test-case name="ChessKata.BoundariesOfTheBoard_Feature.KnightMovesLegally" description="Knight moves legally" executed="True" result="Success" success="True" time="0.594" asserts="3" />
+              <test-case name="ChessKata.BoundariesOfTheBoard_Feature.KnightTriesToMoveOffBoard" description="Knight tries to move off board" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="ChessKata.BoundariesOfTheBoard_Feature.PawnMovesLegally" description="Pawn moves legally" executed="True" result="Success" success="True" time="0.031" asserts="3" />
+              <test-case name="ChessKata.BoundariesOfTheBoard_Feature.PawnTriesToMoveOffBoard" description="Pawn tries to move off board" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="MovingTheKnight_Feature" description="Moving the Knight." executed="True" result="Success" success="True" time="0.172" asserts="0">
+            <results>
+              <test-case name="ChessKata.MovingTheKnight_Feature.MovingTheKnightIllegally" description="Moving the knight illegally" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+              <test-case name="ChessKata.MovingTheKnight_Feature.MovingTheKnightIllegally3SquaresVertically" description="Moving the knight illegally, 3 squares vertically" executed="True" result="Success" success="True" time="0.031" asserts="2" />
+              <test-case name="ChessKata.MovingTheKnight_Feature.MovingTheKnightIllegallyMovingOntoPieceOfSameColour" description="Moving the knight illegally, moving onto piece of same colour" executed="True" result="Success" success="True" time="0.063" asserts="3" />
+              <test-case name="ChessKata.MovingTheKnight_Feature.MovingTheKnightLegally" description="Moving the knight legally" executed="True" result="Success" success="True" time="0.047" asserts="3" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="MovingThePawn_Feature" description="Moving the Pawn." executed="True" result="Success" success="True" time="0.313" asserts="0">
+            <results>
+              <test-case name="ChessKata.MovingThePawn_Feature.BlackPawnMovesTwoSpacesFromHomeRow" description="Black Pawn moves two spaces from home row" executed="True" result="Success" success="True" time="0.063" asserts="3" />
+              <test-case name="ChessKata.MovingThePawn_Feature.BlackPawnTakesAWhitePawn" description="Black Pawn takes a White Pawn" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="ChessKata.MovingThePawn_Feature.BlackPawnTriesToMoveBackwardsFromHomeRow" description="Black Pawn tries to move backwards from home row" executed="True" result="Success" success="True" time="0.063" asserts="1" />
+              <test-case name="ChessKata.MovingThePawn_Feature.BlackPawnTriesToMoveDiagonallyWithoutTakingAPiece" description="Black Pawn tries to move diagonally without taking a piece" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="ChessKata.MovingThePawn_Feature.WhitePawnMovesOneSpaceFromHomeRow" description="White Pawn moves one space from home row" executed="True" result="Success" success="True" time="0.078" asserts="3" />
+              <test-case name="ChessKata.MovingThePawn_Feature.WhitePawnTriesToMove2SquaresWhenNotOnHomeRow" description="White Pawn tries to move 2 squares when not on home row" executed="True" result="Success" success="True" time="0.031" asserts="1" />
+              <test-case name="ChessKata.MovingThePawn_Feature.WhitePawnTriesToMoveBackwardsFromHomeRow" description="White Pawn tries to move backwards from home row" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-case name="ChessKata.MovingThePawn_Feature.WhitePawnTriesToMoveThreeSpaceFromHomeRow" description="White Pawn tries to move three space from home row" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="SquareTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                <results>
+                  <test-case name="ChessKata.Tests.SquareTests.SquareA1MinusA2ReturnsARowDifferenceOfMinus1" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                  <test-case name="ChessKata.Tests.SquareTests.SquareMinusSquareReturnsAMatrix" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

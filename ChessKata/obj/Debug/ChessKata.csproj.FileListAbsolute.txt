@@ -1,0 +1,8 @@
+C:\Documents and Settings\Mark\Desktop\ChessKata\ChessKata\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark\Desktop\ChessKata\ChessKata\bin\Debug\ChessKata.dll
+C:\Documents and Settings\Mark\Desktop\ChessKata\ChessKata\bin\Debug\ChessKata.pdb
+C:\Documents and Settings\Mark\Desktop\ChessKata\ChessKata\bin\Debug\nunit.core.dll
+C:\Documents and Settings\Mark\Desktop\ChessKata\ChessKata\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\Mark\Desktop\ChessKata\ChessKata\bin\Debug\TechTalk.SpecFlow.dll
+C:\Documents and Settings\Mark\Desktop\ChessKata\ChessKata\obj\Debug\ChessKata.dll
+C:\Documents and Settings\Mark\Desktop\ChessKata\ChessKata\obj\Debug\ChessKata.pdb
